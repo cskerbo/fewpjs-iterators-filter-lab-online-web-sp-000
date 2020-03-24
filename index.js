@@ -1,5 +1,4 @@
 function findMatching(driverArray, string) {
-  driverArray.filter(driver => {
-    return driver === string;
-  })
+  const result = driverArray.filter(driver => driver === string);
+  return result
 }
