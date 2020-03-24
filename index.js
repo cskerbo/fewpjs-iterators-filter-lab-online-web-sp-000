@@ -1,4 +1,4 @@
-function findMatching(driverArray, string) {
+function findMatching(driverArray, string){
   const result = driverArray.filter(driver => driver.toUpperCase() == string.toUpperCase());
   return result
 }
@@ -9,4 +9,8 @@ function fuzzyMatch(driverArray, string){
   return result
 }
 
-function 
+function matchName(driverArray, string){
+  const result = driveryArray.filter(function(driver){
+    return driver.name === string
+  })
+}
