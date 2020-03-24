@@ -1,5 +1,5 @@
 function findMatching(driverArray, string) {
-  let drivers = driveryArray.filter(driver => {
+  let drivers = driverArray.filter(driver => {
     return driver === string;
   })
 }
