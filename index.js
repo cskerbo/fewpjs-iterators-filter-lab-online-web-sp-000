@@ -13,4 +13,5 @@ function matchName(driverArray, string){
   const result = driverArray.filter(function(driver){
     return driver.name === string
   })
+  return result
 }
