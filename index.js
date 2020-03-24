@@ -8,3 +8,5 @@ function fuzzyMatch(driverArray, string){
   const result = driverArray.filter(driver => driver.substring(0, stringLength) === string)
   return result
 }
+
+function 
